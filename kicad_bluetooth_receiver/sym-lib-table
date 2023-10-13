@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "BM83SM1-00TA")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/BM83/BM83SM1-00TA.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7381-33V-A")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/AP7381-33V-A/AP7381-33V-A.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ2-BH-W1-TH")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/UJ2-BH-W1-TH/UJ2-BH-W1-TH.kicad_sym")(options "")(descr ""))
+)

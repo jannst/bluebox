@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/metro/git/BlueBox/kicad_bluetooth_receiver/BlueBox.kicad_sch</source>
+    <date>Di 22 Aug 2023 10:26:44 CEST</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BlueBox</title>
+        <company>Jannik Sturhann</company>
+        <rev>1.0</rev>
+        <date>2023-08-07</date>
+        <source>BlueBox.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="11">
+      <value>USB3145-30-1-A</value>
+      <footprint>USB3145-30-1-A:USB3145301A</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/837/USB3145-2888215.pdf</datasheet>
+      <fields>
+        <field name="Footprint_1">USB3145301A</field>
+        <field name="Manufacturer_Name">GCT (GLOBAL CONNECTOR TECHNOLOGY)</field>
+        <field name="Manufacturer_Part_Number">USB3145-30-1-A</field>
+        <field name="Mouser Part Number">640-USB3145-30-1-A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/GCT/USB3145-30-1-A?qs=KUoIvG%2F9IlYD1lvSRu5iyg%3D%3D</field>
+        <field name="Reference_1">J</field>
+        <field name="Value_1">USB3145-30-1-A</field>
+      </fields>
+      <libsource lib="USB3145-30-1-A" part="USB3145-30-1-A" description="GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3145-30-1-A - MICRO USB, 2.0 TYPE B, RECEPTACLE, TH"/>
+      <property name="Reference_1" value="J"/>
+      <property name="Value_1" value="USB3145-30-1-A"/>
+      <property name="Footprint_1" value="USB3145301A"/>
+      <property name="Datasheet_1" value=""/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="640-USB3145-30-1-A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/GCT/USB3145-30-1-A?qs=KUoIvG%2F9IlYD1lvSRu5iyg%3D%3D"/>
+      <property name="Manufacturer_Name" value="GCT (GLOBAL CONNECTOR TECHNOLOGY)"/>
+      <property name="Manufacturer_Part_Number" value="USB3145-30-1-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0eab9f8-c805-4d0c-ae1d-f8bfcfce50c7</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/860010472003.pdf</datasheet>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73167ac0-7b8d-4717-90f5-dfd77ad7c405</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>482c15cc-198e-4a62-ba13-d01b8141c440</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dd3ea06-27b6-40de-a19b-7d75ddefc71c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b51bae88-1dcb-41d0-8faf-8bd857387c6b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5050827-c83f-4e33-9f57-15bc1f0eaddd</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61fccf07-59c7-4dc7-b541-f13168ee7bb8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16396f34-84ef-47bd-866f-77771a13dd20</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d60b2d7f-59d6-4a6b-8c53-225cc2389582</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7a081aa-3b98-4bf7-8b62-cc53c9f99534</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ace45dd5-0e79-46a6-b53d-f65badbc44c9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ec6215-146c-43b2-b3c4-9207dc9fee8f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd3849ec-856f-4b3a-a16a-ab942102afa1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8406deed-2054-40ee-9bda-d6fe1589218a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9027c1db-db8f-4f55-87d8-475de0700d7c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36cd845d-7aef-4570-a146-946c9b284755</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e724666-346b-4fbd-ac27-12e84d72a70e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>788e5af0-e453-466e-a1e6-6a501e89efed</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22baa98d-af9f-4324-9e9a-357c48c7775b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3181987c-46b3-4f8b-a112-505ace09f168</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7884c226-b574-4c71-a5b4-596fa50a509a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7u</value>
+      <footprint>Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/597/dr0810-463383.pdf</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e822092-94c0-4af5-8d54-056ef7c95ff4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22e92578-3334-4d10-9a79-68c71e5734a6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49e64dcd-6d48-4969-ba71-eaf2e952484a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d3f8123-6837-4851-a5c6-fb465613703e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP7381-33V-A</value>
+      <footprint>AP7381-33V-A:AP738133VA</footprint>
+      <fields>
+        <field name="Datasheet_1">https://www.diodes.com/assets/Datasheets/AP7381.pdf</field>
+        <field name="Footprint_1">AP738133VA</field>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP7381-33V-A</field>
+        <field name="Mouser Part Number">621-AP7381-33V-A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7381-33V-A?qs=1mbolxNpo8cFZwU4HR7fJA%3D%3D</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">AP7381-33V-A</field>
+      </fields>
+      <libsource lib="AP7381-33V-A" part="AP7381-33V-A" description="LDO Voltage Regulators LDO CMOS LowCurr"/>
+      <property name="Reference_1" value="IC"/>
+      <property name="Value_1" value="AP7381-33V-A"/>
+      <property name="Footprint_1" value="AP738133VA"/>
+      <property name="Datasheet_1" value="https://www.diodes.com/assets/Datasheets/AP7381.pdf"/>
+      <property name="Height" value="4.7"/>
+      <property name="Mouser Part Number" value="621-AP7381-33V-A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7381-33V-A?qs=1mbolxNpo8cFZwU4HR7fJA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="AP7381-33V-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd685a3a-036f-4064-b938-feddbf1f157d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BM83SM1-00TA</value>
+      <footprint>BM83:BM83SM100TA</footprint>
+      <fields>
+        <field name="Datasheet_1">http://ww1.microchip.com/downloads/en/DeviceDoc/BM83_Bluetooth_Stereo_Audio_Module_Data_Sheet_DS70005402A.pdf</field>
+        <field name="Footprint_1">BM83SM100TA</field>
+        <field name="Height">2.5</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">BM83SM1-00TA</field>
+        <field name="Mouser Part Number">579-BM83SM1-00TA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/BM83SM1-00TA?qs=W%2FMpXkg%252BdQ4DzNNx0q4h4Q%3D%3D</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">BM83SM1-00TA</field>
+      </fields>
+      <libsource lib="BM83SM1-00TA" part="BM83SM1-00TA" description="Bluetooth Modules (802.15.1) Bluetooth Audio Class 1 Transceiver Module with A2DP Source"/>
+      <property name="Reference_1" value="IC"/>
+      <property name="Value_1" value="BM83SM1-00TA"/>
+      <property name="Footprint_1" value="BM83SM100TA"/>
+      <property name="Datasheet_1" value="http://ww1.microchip.com/downloads/en/DeviceDoc/BM83_Bluetooth_Stereo_Audio_Module_Data_Sheet_DS70005402A.pdf"/>
+      <property name="Height" value="2.5"/>
+      <property name="Mouser Part Number" value="579-BM83SM1-00TA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/BM83SM1-00TA?qs=W%2FMpXkg%252BdQ4DzNNx0q4h4Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="BM83SM1-00TA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BlueBox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a642f980-3dcd-4228-a0a1-d85cd40a63cb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AP7381-33V-A" part="AP7381-33V-A">
+      <description>LDO Voltage Regulators LDO CMOS LowCurr</description>
+      <fields>
+        <field name="Value">AP7381-33V-A</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">AP7381-33V-A</field>
+        <field name="Footprint_1">AP738133VA</field>
+        <field name="Datasheet_1">https://www.diodes.com/assets/Datasheets/AP7381.pdf</field>
+        <field name="Height">4.7</field>
+        <field name="Mouser Part Number">621-AP7381-33V-A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7381-33V-A?qs=1mbolxNpo8cFZwU4HR7fJA%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP7381-33V-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BM83SM1-00TA" part="BM83SM1-00TA">
+      <description>Bluetooth Modules (802.15.1) Bluetooth Audio Class 1 Transceiver Module with A2DP Source</description>
+      <fields>
+        <field name="Value">BM83SM1-00TA</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">BM83SM1-00TA</field>
+        <field name="Footprint_1">BM83SM100TA</field>
+        <field name="Datasheet_1">http://ww1.microchip.com/downloads/en/DeviceDoc/BM83_Bluetooth_Stereo_Audio_Module_Data_Sheet_DS70005402A.pdf</field>
+        <field name="Height">2.5</field>
+        <field name="Mouser Part Number">579-BM83SM1-00TA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/BM83SM1-00TA?qs=W%2FMpXkg%252BdQ4DzNNx0q4h4Q%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">BM83SM1-00TA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DR1" type="passive"/>
+        <pin num="2" name="RFS1" type="passive"/>
+        <pin num="3" name="SCLK1" type="passive"/>
+        <pin num="4" name="DT1" type="passive"/>
+        <pin num="5" name="MCLK1" type="passive"/>
+        <pin num="6" name="AOHPR" type="passive"/>
+        <pin num="7" name="AOHPM" type="passive"/>
+        <pin num="8" name="AOHPL" type="passive"/>
+        <pin num="9" name="MICN2" type="passive"/>
+        <pin num="10" name="MICP2" type="passive"/>
+        <pin num="11" name="AIR" type="passive"/>
+        <pin num="12" name="AIL" type="passive"/>
+        <pin num="13" name="MICN1" type="passive"/>
+        <pin num="14" name="MICP1" type="passive"/>
+        <pin num="15" name="MICBIAS" type="passive"/>
+        <pin num="16" name="GND_1" type="passive"/>
+        <pin num="17" name="DMIC_CLK" type="passive"/>
+        <pin num="18" name="DMIC1_R" type="passive"/>
+        <pin num="19" name="DMIC1_L" type="passive"/>
+        <pin num="20" name="P3_2" type="passive"/>
+        <pin num="21" name="P2_6" type="passive"/>
+        <pin num="22" name="ADAP_IN" type="passive"/>
+        <pin num="23" name="BAT_IN" type="passive"/>
+        <pin num="24" name="SYS_PWR" type="passive"/>
+        <pin num="25" name="VDD_IO" type="passive"/>
+        <pin num="26" name="PWR_(MFB)" type="passive"/>
+        <pin num="27" name="SKI1_AMB_DET" type="passive"/>
+        <pin num="28" name="SK2_KEY_AD" type="passive"/>
+        <pin num="29" name="P8_6/UART_RXD" type="passive"/>
+        <pin num="30" name="P8_5/UART_TXD" type="passive"/>
+        <pin num="31" name="P3_4/UART_RTS" type="passive"/>
+        <pin num="32" name="LED1" type="passive"/>
+        <pin num="33" name="P0_2" type="passive"/>
+        <pin num="34" name="LED2" type="passive"/>
+        <pin num="35" name="P0_6" type="passive"/>
+        <pin num="36" name="DM" type="passive"/>
+        <pin num="37" name="DP" type="passive"/>
+        <pin num="38" name="P0_3" type="passive"/>
+        <pin num="39" name="P2_7" type="passive"/>
+        <pin num="40" name="P0_5" type="passive"/>
+        <pin num="41" name="P1_6/PWM1" type="passive"/>
+        <pin num="42" name="P2_3" type="passive"/>
+        <pin num="43" name="RST_N" type="passive"/>
+        <pin num="44" name="P0_1" type="passive"/>
+        <pin num="45" name="P0_7" type="passive"/>
+        <pin num="46" name="P1_2/TDI_CPU/SCL" type="passive"/>
+        <pin num="47" name="P1_3/TCK_CPU/SDA" type="passive"/>
+        <pin num="48" name="P3_7/UART_CTS" type="passive"/>
+        <pin num="49" name="P0_0/UART_TX_IND" type="passive"/>
+        <pin num="50" name="GND_2" type="passive"/>
+        <pin num="EP1" name="GND_3" type="passive"/>
+        <pin num="EP2" name="GND_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB3145-30-1-A" part="USB3145-30-1-A">
+      <description>GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3145-30-1-A - MICRO USB, 2.0 TYPE B, RECEPTACLE, TH</description>
+      <fields>
+        <field name="Value">USB3145-30-1-A</field>
+        <field name="Reference_1">J</field>
+        <field name="Value_1">USB3145-30-1-A</field>
+        <field name="Footprint_1">USB3145301A</field>
+        <field name="Mouser Part Number">640-USB3145-30-1-A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/GCT/USB3145-30-1-A?qs=KUoIvG%2F9IlYD1lvSRu5iyg%3D%3D</field>
+        <field name="Manufacturer_Name">GCT (GLOBAL CONNECTOR TECHNOLOGY)</field>
+        <field name="Manufacturer_Part_Number">USB3145-30-1-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AP7381-33V-A">
+      <uri>/home/metro/git/BlueBox/kicad_lib/AP7381-33V-A/AP7381-33V-A.kicad_sym</uri>
+    </library>
+    <library logical="BM83SM1-00TA">
+      <uri>/home/metro/git/BlueBox/kicad_lib/BM83/BM83SM1-00TA.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="USB3145-30-1-A">
+      <uri>/home/metro/git/BlueBox/kicad_lib/USB3145-30-1-A/USB3145-30-1-A.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="BAT_IN" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="3" name="AUDIO_OUT_GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AOHPM" pintype="passive"/>
+    </net>
+    <net code="4" name="AUDIO_OUT_L">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="AOHPL" pintype="passive"/>
+    </net>
+    <net code="5" name="AUDIO_OUT_R">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="AOHPR" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="11" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="11" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="11" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U2" pin="50" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U2" pin="EP1" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="EP2" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="7" name="LED1">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="LED1" pintype="passive"/>
+    </net>
+    <net code="8" name="LED2">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="LED2" pintype="passive"/>
+    </net>
+    <net code="9" name="MFB">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="PWR_(MFB)" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="VDD_IO" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad1)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J4-Pad2)">
+      <node ref="11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="RESET">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="43" pinfunction="RST_N" pintype="passive"/>
+    </net>
+    <net code="19" name="SYS_PWR">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="SYS_PWR" pintype="passive"/>
+    </net>
+    <net code="20" name="TEST_MODE">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="P3_4/UART_RTS" pintype="passive"/>
+    </net>
+    <net code="21" name="UART_RX">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="P8_6/UART_RXD" pintype="passive"/>
+    </net>
+    <net code="22" name="UART_TX">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="P8_5/UART_TXD" pintype="passive"/>
+    </net>
+    <net code="23" name="USB_DM">
+      <node ref="11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="DM" pintype="passive"/>
+    </net>
+    <net code="24" name="USB_DP">
+      <node ref="11" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="DP" pintype="passive"/>
+    </net>
+    <net code="25" name="USB_VCC">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="ADAP_IN" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(11-Pad4)">
+      <node ref="11" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="DR1" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="RFS1" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="SCLK1" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="DT1" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="MCLK1" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="MICN2" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="MICP2" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="AIR" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="AIL" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="MICN1" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="MICP1" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="MICBIAS" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="DMIC_CLK" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="DMIC1_R" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="DMIC1_L" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(U2-Pad20)">
+      <node ref="U2" pin="20" pinfunction="P3_2" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(U2-Pad21)">
+      <node ref="U2" pin="21" pinfunction="P2_6" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(U2-Pad27)">
+      <node ref="U2" pin="27" pinfunction="SKI1_AMB_DET" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(U2-Pad28)">
+      <node ref="U2" pin="28" pinfunction="SK2_KEY_AD" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(U2-Pad33)">
+      <node ref="U2" pin="33" pinfunction="P0_2" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="P0_6" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(U2-Pad38)">
+      <node ref="U2" pin="38" pinfunction="P0_3" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(U2-Pad39)">
+      <node ref="U2" pin="39" pinfunction="P2_7" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(U2-Pad40)">
+      <node ref="U2" pin="40" pinfunction="P0_5" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(U2-Pad41)">
+      <node ref="U2" pin="41" pinfunction="P1_6/PWM1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(U2-Pad42)">
+      <node ref="U2" pin="42" pinfunction="P2_3" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(U2-Pad44)">
+      <node ref="U2" pin="44" pinfunction="P0_1" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(U2-Pad45)">
+      <node ref="U2" pin="45" pinfunction="P0_7" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(U2-Pad46)">
+      <node ref="U2" pin="46" pinfunction="P1_2/TDI_CPU/SCL" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(U2-Pad47)">
+      <node ref="U2" pin="47" pinfunction="P1_3/TCK_CPU/SDA" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(U2-Pad48)">
+      <node ref="U2" pin="48" pinfunction="P3_7/UART_CTS" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(U2-Pad49)">
+      <node ref="U2" pin="49" pinfunction="P0_0/UART_TX_IND" pintype="passive"/>
+    </net>
+  </nets>
+</export>

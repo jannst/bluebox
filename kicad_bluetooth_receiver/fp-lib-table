@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "AP7381-33V-A")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/AP7381-33V-A")(options "")(descr ""))
+  (lib (name "BM83")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/BM83")(options "")(descr ""))
+  (lib (name "UJ2-BH-W1-TH")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/UJ2-BH-W1-TH")(options "")(descr ""))
+  (lib (name "USB3145-30-1-A")(type "KiCad")(uri "/home/metro/git/BlueBox/kicad_lib/USB3145-30-1-A")(options "")(descr ""))
+)
